@@ -1,2 +1,2 @@
 # padhana-docs
-Documentation site for Padhana library
+Documentation site for the Padhana library
