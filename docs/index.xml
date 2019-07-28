@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Padhana Documentation &amp; Examples</title>
+    <link>https://hohonu.github.io/padhana-docs/docs/</link>
+    <description>Recent content in Docs on Padhana Documentation &amp; Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://hohonu.github.io/padhana-docs/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Usage</title>
+      <link>https://hohonu.github.io/padhana-docs/docs/basic-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/basic-usage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/connectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/connectors/</guid>
+      <description>Connectors Connectors basically take a source and provide a list of file locations (implementing the iterator pattern).
+Connector Setup Write some stuff about how to set up a connector. Provide an example.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/document-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/document-structure/</guid>
+      <description>Structure of a parsed document Document A Document is the base representation of an unstructured source object, it consists of metadata and then a content object.
+A document is used as the formal representation for a source file or binary object, and should contain features (such as text, layout, visual elements) that can then be used in Padhana to try and enable rich interaction with the document for re-structuring it, training or labelling etc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/example-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/example-1/</guid>
+      <description>Example One How example 1 is amazing This is a placeholder for example 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/example-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/example-2/</guid>
+      <description>Example Two How example 2 is amazing This is a placeholder for example 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/examples/</guid>
+      <description>Examples A little write up about the 2 examples and the wide ranging uses of Padhana.
+Example One Write brief description and link to Example One
+Example Two Write brief description and link to Example Two</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/parsers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/parsers/</guid>
+      <description>Parsers Parsers take a path to a source file and convert that file into a Document.
+Parser Setup This will contain information on how to set up a parser &amp;amp; examples.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hohonu.github.io/padhana-docs/docs/stores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hohonu.github.io/padhana-docs/docs/stores/</guid>
+      <description>Stores Once you have documents in parsed you can store them in a type of store to allow quick and easy access.
+Store Setup This will contain information on how to set up a document store with examples.</description>
+    </item>
+    
+  </channel>
+</rss>

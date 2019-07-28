@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.55.6" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    Introduction
+  
+ | Padhana Documentation &amp; Examples</title>
+
+
+
+<link rel="stylesheet" href="/padhana-docs/book.min.4ff009cd55ca2819f2321c0cec28d068bbd6ea02a1d1491d0c4f0746ac9b653e.css">
+
+
+<link rel="icon" href="/padhana-docs/favicon.png" type="image/x-icon">
+
+
+<link rel="alternate" type="application/rss+xml" href="https://hohonu.github.io/padhana-docs/index.xml" title="Padhana Documentation & Examples" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://hohonu.github.io/padhana-docs/">Padhana Documentation &amp; Examples</a>
+</h2>
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2fpadhana-docs\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><a href="/padhana-docs/"><strong>Introduction</strong></a></li>
+
+<li><p><a href="/padhana-docs/docs/document-structure/">Platform Components</a></p>
+
+<ul>
+<li><a href="/padhana-docs/docs/document-structure/">Document Structure</a></li>
+<li><a href="/padhana-docs/docs/parsers/">Parsers</a></li>
+<li><a href="/padhana-docs/docs/connectors/">Connectors</a></li>
+<li><a href="/padhana-docs/docs/stores/">Stores</a></li>
+</ul></li>
+
+<li><p><a href="/padhana-docs/docs/examples/">Examples</a></p>
+
+<ul>
+<li><a href="/padhana-docs/docs/example-1/">Example One</a></li>
+<li><a href="/padhana-docs/docs/example-2/">Example Two</a></li>
+</ul></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/padhana-docs/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    Introduction
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="introduction-to-padhana">Introduction to Padhana</h1>
+
+<p>The Padhana framework is designed to enable you to work with PDF documents (and other types) in a
+formal way.  By combining a simple document format (based on a node hierarchy) and then a
+set of parsers and document analysis tools we parse and then structure/annotate document
+content to enable rich interactions.</p>
+
+<h2 id="installation">Installation:</h2>
+
+<p>Source code:  <a href="https://github.com/hohonu/padhana">https://github.com/hohonu/padhana</a></p>
+
+<ul>
+<li><p>For local development:</p>
+
+<ol>
+<li><p>Install Anaconda 3 or greater, then run:</p>
+
+<pre><code>conda env create -f conda.yml --force
+</code></pre></li>
+
+<li><p>Activate the padhana Conda environment with the command:</p>
+
+<pre><code>conda activate padhana
+</code></pre></li>
+
+<li><p>If you want to use the Tesseract Parser then you will need to install Tesseract.  See <a href="https://github.com/tesseract-ocr/tesseract/wiki">https://github.com/tesseract-ocr/tesseract/wiki</a> for more information.</p></li>
+</ol></li>
+</ul>
+
+<h2 id="platform-components">Platform Components:</h2>
+
+<ul>
+<li><p><a href="/padhana-docs/docs/document-structure/">Documents</a> are used as the formal representations for source files or binary objects, and should contain
+features (such as text, layout, visual elements) that can then be used in Padhana to try and
+enable rich interaction with the document for re-structuring it, labelling, training, etc.</p></li>
+
+<li><p><a href="/padhana-docs/docs/parsers/">Parsers</a> take a path to a source file and convert that file into a <a href="/padhana-docs/docs/document-structure/">Document</a>.</p></li>
+
+<li><p><a href="/padhana-docs/docs/connectors/">Connectors</a> take a source and provide a list of file locations (implementing the
+iterator pattern).</p></li>
+
+<li><p><a href="/padhana-docs/docs/stores/">Stores</a> allow you to store your parsed documents in a format that allows for quick and easy access.</p></li>
+</ul>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-6 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#introduction-to-padhana">Introduction to Padhana</a>
+<ul>
+<li><a href="#installation">Installation:</a></li>
+<li><a href="#platform-components">Platform Components:</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+</body>
+
+</html>

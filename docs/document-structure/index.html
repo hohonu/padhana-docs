@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    Document Structure
+  
+ | Padhana Documentation &amp; Examples</title>
+
+
+
+<link rel="stylesheet" href="/padhana-docs/book.min.4ff009cd55ca2819f2321c0cec28d068bbd6ea02a1d1491d0c4f0746ac9b653e.css">
+
+
+<link rel="icon" href="/padhana-docs/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+<h2 class="book-brand">
+  <a href="https://hohonu.github.io/padhana-docs/">Padhana Documentation &amp; Examples</a>
+</h2>
+
+
+
+    
+  
+  
+  
+
+  <style>
+  nav ul a[href$="\2fpadhana-docs\2f docs\2f document-structure\2f "] {
+      color: #004ed0;
+  }
+  </style>
+
+<ul>
+<li><a href="/padhana-docs/"><strong>Introduction</strong></a></li>
+
+<li><p><a href="/padhana-docs/docs/document-structure/">Platform Components</a></p>
+
+<ul>
+<li><a href="/padhana-docs/docs/document-structure/">Document Structure</a></li>
+<li><a href="/padhana-docs/docs/parsers/">Parsers</a></li>
+<li><a href="/padhana-docs/docs/connectors/">Connectors</a></li>
+<li><a href="/padhana-docs/docs/stores/">Stores</a></li>
+</ul></li>
+
+<li><p><a href="/padhana-docs/docs/examples/">Examples</a></p>
+
+<ul>
+<li><a href="/padhana-docs/docs/example-1/">Example One</a></li>
+<li><a href="/padhana-docs/docs/example-2/">Example Two</a></li>
+</ul></li>
+</ul>
+
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/padhana-docs/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Document Structure
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="structure-of-a-parsed-document">Structure of a parsed document</h1>
+
+<h2 id="document">Document</h2>
+
+<p>A Document is the base representation of an unstructured source object, it consists of
+metadata and then a content object.</p>
+
+<p>A document is used as the formal representation for a source file or binary object, and should contain
+features (such as text, layout, visual elements) that can then be used in Padhana to try and
+enable rich interaction with the document for re-structuring it, training or labelling etc.</p>
+
+<pre><code>Properties:
+    metadata: A dictionary of this document's metadata
+    content:  content
+</code></pre>
+
+<h2 id="documentmetadata">DocumentMetadata</h2>
+
+<p>Document metadata is simply a collection of metadata about a document.  It is represented as a simple
+python dictionary.</p>
+
+<h2 id="contentnode">ContentNode</h2>
+
+<p>A simple structure for holding a content node, this is any structure which can have both a value
+and metadata, where the metadata can include spatial layout, structural information and the value is the text
+content itself.  The ContentNode&rsquo;s structure based on how the information was parsed into the platform.</p>
+
+<pre><code>Properties:
+    children: A list of child ContentNode objects
+    features: A dictionary 
+
+Methods:
+    count:
+        Returns the total number of nodes under this node
+</code></pre>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-6 fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#structure-of-a-parsed-document">Structure of a parsed document</a>
+<ul>
+<li><a href="#document">Document</a></li>
+<li><a href="#documentmetadata">DocumentMetadata</a></li>
+<li><a href="#contentnode">ContentNode</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+</body>
+
+</html>
