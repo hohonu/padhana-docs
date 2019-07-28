@@ -4,5 +4,4 @@ Once you have documents in parsed you can store them in a type of store to allow
 
 ## Store Setup
 
-Write some stuff about how to set up a store.
-Provide an example.
+This will contain information on how to set up a document store with examples.

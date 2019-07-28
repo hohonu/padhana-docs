@@ -1,6 +1,6 @@
 # Examples
 
-A little write up about the 2 examples and the wide range of uses Padhana offers.
+A little write up about the 2 examples and the wide ranging uses of Padhana.
 
 ## Example One
 

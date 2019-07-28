@@ -2,4 +2,4 @@
 
 ## How example 1 is amazing
 
-blah blah blah
+This is a placeholder for example 1.

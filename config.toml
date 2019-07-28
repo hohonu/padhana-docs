@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://hohonu.github.io/padhana-docs/"
 languageCode = "en-us"
 theme = "book"
 disableKinds = ['taxonomy', 'taxonomyTerm']
@@ -56,16 +56,16 @@ defaultContentLanguageInSubdir = true
     BookDateFormat = 'Jan 2, 2006'
 
 
-  [languages.fr]
-    weight = 2
-    title = "Padhana Documentation et Exemples"
-    contentDir = "content/fr"
+  #[languages.fr]
+    #weight = 2
+    #title = "Padhana Documentation et Exemples"
+    #contentDir = "content/fr"
 
     # (Optional, default none) Set leaf bundle to render as side menu
     # When not specified file structure and weights will be used
-    BookMenuBundle = "/menu"
+    #BookMenuBundle = "/menu"
 
     # Configure the date format used on the pages
     # - In git information
     # - In blog posts
-    BookDateFormat = '2 Jan, 2006'
+    #BookDateFormat = '2 Jan, 2006'
